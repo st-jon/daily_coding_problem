@@ -2,6 +2,8 @@
 
 // For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
+
+// first basic solution
 const sumUp = (arr, num) => {
     if (arr.length < 2) {
         return false
@@ -19,6 +21,7 @@ const sumUp = (arr, num) => {
 console.log(sumUp([10, 15, 3, 7], 17))
 
 
+// Second solution
 function addUp(arr, k) {
     let rest = {}
     for (let value of arr) {
