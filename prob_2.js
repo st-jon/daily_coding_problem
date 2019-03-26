@@ -6,7 +6,6 @@
 
 // Follow-up: what if you can't use division?
 
-// const reducer =  (a, b) => a*b
 
 const prob2 = (arr) => {
     let result = []
